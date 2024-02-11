@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "GooglePlaces", platforms: [.iOS(.v14)],
+  name: "GooglePlaces", platforms: [.iOS(.v14), .macCatalyst(.v14)],
   products: [
     .library(
       name: "GooglePlaces",
