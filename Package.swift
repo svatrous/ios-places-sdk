@@ -1,4 +1,4 @@
-// swift-tools-version: 5.5
+// swift-tools-version: 5.9
 //
 // Copyright 2023 Google LLC
 //
@@ -17,7 +17,7 @@
 import PackageDescription
 
 let package = Package(
-  name: "GooglePlaces", platforms: [.iOS(.v14), .macCatalyst(.v14)],
+  name: "GooglePlaces", platforms: [.iOS(.v14), .macCatalyst(.v13)],
   products: [
     .library(
       name: "GooglePlaces",
